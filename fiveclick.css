@@ -1,0 +1,170 @@
+	
+.container{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 250px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+p{
+	color: gray;
+}
+
+input{
+	display: none;
+}
+
+span{
+	color: #fff;
+}
+
+
+#label1{
+	box-sizing: border-box;
+	display: block;
+	background: #f0f0f0;
+	width: 60px;
+	height: 30px;
+	border-radius: 15px;
+	position: relative;
+	padding: 2.5px;
+
+}
+#label1 .cicle1{
+	display: block;
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+
+}
+#click1:checked + label .cicle1{
+	position: absolute;
+	top: 50%;
+	right: 2.5px;
+	margin-top: -12.5px;
+}
+
+#click1:checked + label{
+	background: #9fd6ae;
+}
+
+
+#label2{
+	box-sizing: border-box;
+	display: block;
+	border: 1px solid #f0f0f0;
+	width: 62px;
+	height: 32px;
+	border-radius: 15px;
+	position: relative;
+	padding-left: 1.5px;
+	padding-top: 1px;
+
+}
+#label2 .cicle2{
+	display: block;
+	border: 1px solid #f0f0f0;
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	box-shadow: 0.5px 1px 1px #ccc;
+}
+#click2:checked + label .cicle2{
+	position: absolute;
+	top: 50%;
+	right: 2px;
+	margin-top: -13px;
+}
+
+#click2:checked + label{
+	background: #9fd6ae;
+}
+
+
+
+
+#label3{
+	display: block;
+	background: #888888;
+	width: 60px;
+	height: 30px;
+	transform: skewX(-20deg);
+	text-align: center;
+	line-height: 30px;
+}
+
+#label3 .off{
+	display: block;
+}
+#label3 .on{
+	display: none;
+}
+#click3:checked + label .on{
+	display: block;
+}
+#click3:checked + label{
+	background: #9fd6ae;
+}
+
+
+#label4{
+	box-sizing: border-box;
+	display: block;
+
+	border: 4px solid #f0f0f0;
+	width: 64px;
+	height: 34px;
+	border-radius: 15px;
+	position: relative;
+	padding: 1.5px;
+
+}
+#label4 .cicle4{
+	display: block;
+	background: #f0f0f0;
+	width: 26px;
+	height: 22px;
+	border-radius: 40%;
+
+}
+#click4:checked + label .cicle4{
+	position: absolute;
+	top: 50%;
+	right: 1.5px;
+	margin-top: -11px;
+	background: #9fd6ae;
+}
+
+#click4:checked + label{
+	border-color: #9fd6ae;
+}
+
+
+
+
+#label5{
+	display: block;
+	background: #ff3A19;
+	width: 60px;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+#label5 .nope{
+	display: block;
+}
+#label5 .yeah{
+	display: none;
+}
+#click5:checked + label .yeah{
+	display: block;
+}
+
+#click5:checked + label{
+	background: #9fd6ae;
+}
